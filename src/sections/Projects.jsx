@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { myProjects } from "../constants";
 import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Center, OrbitControls } from "@react-three/drei";
+import { Center, Html, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader";
 import DemoComputer from "../components/DemoComputer";
 const projectCount = myProjects.length;
@@ -22,8 +22,15 @@ const Projects = () => {
 
   return (
     <section className="c-space my-20" id="work">
-      <p className="head-text">My Work</p>
+      <div className="flex flex-row justify-between">
+        <p className="head-text transition ease-in-out duration-100 hover:scale-105 hover:border-b">
+          My Projects
+        </p>
+        <p className="text-gray-400">Rotate Computer Screen and Check on it</p>
+      </div>
+
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
+        {/* Left side section of projects  */}
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shawdow-2xl shadow-black-200">
           <div className="absolute top-0 right-0">
             <img
@@ -100,7 +107,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* canvas container   */}
+        {/* canvas container Right side section  */}
         <div className="border border-red bg-black-200 rounded-lg h-96 md:h-full ">
           {/* CANT RENDER DIV INSIDE CANVAS CONTAINER  */}
           <Canvas>
