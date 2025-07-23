@@ -29,7 +29,14 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Harsha Chiruvolu</p>
               <p className="grid-subtext">
-                Skilled in React, Node.js, Express, MongoDB. Passionate about building scalable web apps and continuously learning modern technologies.
+                <p className="grid-subtext">
+                  Skilled in building interactive UIs with React, state
+                  management with Zustand, and backend development using
+                  Node.js, Express, and MongoDB. Proficient in RESTful APIs,
+                  real-time communication with Socket.io, and version control
+                  with Git. Currently exploring 3D web experiences using
+                  Three.js.
+                </p>
               </p>
             </div>
           </div>
@@ -44,9 +51,16 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">Tech Stack And Skills</p>
               <p className="grid-subtext">
-                I specialize in building full-stack web apps using the MERN stack with real-time features powered by Socket.io. My projects focus on responsive design, efficient state management, and seamless user experiences.
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
+                  <li>Real-time features with Socket.io</li>
+                  <li>State management using Zustand</li>
+                  <li>UI with Tailwind CSS</li>
+                  <li>Deployment on Vercel & Render</li>
+                  <li>Auth with JWT & Express middleware</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -83,7 +97,14 @@ const About = () => {
                 I&apos;m based in Vijayawada, India and open to remote work
                 worldwide.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="#contact">
+                <Button
+                  name="Contact Me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                  id="contact"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -99,9 +120,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                Passionate about building and problem-solving through code. I
+                love exploring tech, crafting real-world solutions, and growing
+                every day as a developer.
               </p>
             </div>
           </div>
