@@ -30,12 +30,12 @@ const About = () => {
               <p className="grid-headtext">Hi, I’m Harsha Chiruvolu</p>
               <p className="grid-subtext">
                 <p className="grid-subtext">
-                  Skilled in building interactive UIs with React, state
-                  management with Zustand, and backend development using
-                  Node.js, Express, and MongoDB. Proficient in RESTful APIs,
-                  real-time communication with Socket.io, and version control
-                  with Git. Currently exploring 3D web experiences using
-                  Three.js.
+                  Third-year Computer Science student at IIIT Kottayam. Skilled
+                  in building interactive UIs with React, state management with
+                  Zustand, and backend development using Node.js, Express, and
+                  MongoDB. Proficient in RESTful APIs, real-time communication
+                  with Socket.io, and version control with Git. Currently
+                  exploring 3D web experiences using Three.js.
                 </p>
               </p>
             </div>
@@ -122,7 +122,8 @@ const About = () => {
               <p className="grid-subtext">
                 Passionate about building and problem-solving through code. I
                 love exploring tech, crafting real-world solutions, and growing
-                every day as a developer.
+                every day as a developer.I enjoy collaborating in team-based
+                development environments.
               </p>
             </div>
           </div>
