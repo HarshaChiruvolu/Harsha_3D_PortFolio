@@ -29,14 +29,12 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Harsha Chiruvolu</p>
               <p className="grid-subtext">
-                <p className="grid-subtext">
-                  Third-year Computer Science student at IIIT Kottayam. Skilled
-                  in building interactive UIs with React, state management with
-                  Zustand, and backend development using Node.js, Express, and
-                  MongoDB. Proficient in RESTful APIs, real-time communication
-                  with Socket.io, and version control with Git. Currently
-                  exploring 3D web experiences using Three.js.
-                </p>
+                Third-year Computer Science student at IIIT Kottayam. Skilled in
+                building interactive UIs with React, state management with
+                Zustand, and backend development using Node.js, Express, and
+                MongoDB. Proficient in RESTful APIs, real-time communication
+                with Socket.io, and version control with Git. Currently
+                exploring 3D web experiences using Three.js.
               </p>
             </div>
           </div>
@@ -52,16 +50,15 @@ const About = () => {
 
             <div>
               <p className="grid-headtext">Tech Stack And Skills</p>
-              <p className="grid-subtext">
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
-                  <li>Real-time features with Socket.io</li>
-                  <li>State management using Zustand</li>
-                  <li>UI with Tailwind CSS</li>
-                  <li>Deployment on Vercel & Render</li>
-                  <li>Auth with JWT & Express middleware</li>
-                </ul>
-              </p>
+
+              <ul className="list-disc pl-5 space-y-1 text-white-700">
+                <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
+                <li>Real-time features with Socket.io</li>
+                <li>State management using Zustand</li>
+                <li>UI with Tailwind CSS</li>
+                <li>Deployment on Vercel & Render</li>
+                <li>Auth with JWT & Express middleware</li>
+              </ul>
             </div>
           </div>
         </div>
