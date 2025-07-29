@@ -62,6 +62,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen  w-full flex flex-col relative" id="home">
+      {/* HEADER TEXT  */}
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi There, I'm Harsha
@@ -72,6 +73,7 @@ const Hero = () => {
         </p>
       </div>
 
+      {/* HackerRoom 3d Model  */}
       <div className="w-full h-full absolute inset-0">
         {/* <Leva hidden /> */}
         {/* Three js starts with a canvas tag  */}
@@ -101,6 +103,7 @@ const Hero = () => {
         </Canvas>
       </div>
 
+      {/* lets wrok together button  */}
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <a href="#about" className="w-fit">
           <Button

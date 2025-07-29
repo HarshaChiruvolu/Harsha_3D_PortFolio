@@ -167,6 +167,21 @@ body {
   );
 }
 
+.resume-button {
+  padding: 10px 15px;
+  background-color:bisque;
+  color:black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.resume-button:hover {
+  background-color: #f0e68c;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition:all 0.3s ease;
+  transform: scale(1.05);
+}
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);

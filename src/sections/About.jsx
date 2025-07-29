@@ -17,7 +17,9 @@ const About = () => {
 
   return (
     <section className="c-space my-20" id="about">
+      {/* GRID FOR ABOUT SECTION  */}
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+        {/* Name Container  */}
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
@@ -40,6 +42,8 @@ const About = () => {
           </div>
         </div>
 
+        {/* MERN Stack and Skills  */}
+        {/* This section is for the MERN stack and skills */}
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
@@ -63,6 +67,8 @@ const About = () => {
           </div>
         </div>
 
+        {/* Globe and Contact Section  */}
+        {/* This section is for the globe and contact information */}
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
@@ -106,6 +112,8 @@ const About = () => {
           </div>
         </div>
 
+        {/* Passion for Coding and Resume Section  */}
+        {/* This section is for the passion for coding and resume */}
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
@@ -123,9 +131,20 @@ const About = () => {
                 development environments.
               </p>
             </div>
+            {/* The linked page does not receive information about the originating page's URL, protecting user privacy. using the rel="noopener noreferrer" attribute */}
+            <a
+              href="assets/Harsha_Resume (3).pdf"
+              target="_blank"
+              class="resume-button mt-5"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
           </div>
         </div>
 
+        {/* Contact Section  */}
+        {/* This section is for the contact information */}
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
